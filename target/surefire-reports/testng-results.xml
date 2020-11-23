@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="52" started-at="2020-11-23T08:24:39Z" finished-at="2020-11-23T08:24:39Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="SanityTest.test1()[pri:0, instance:sanityTest.SanityTest@668bc3d5]" name="test1" class="sanityTest.SanityTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test name="Command line test" duration-ms="52" started-at="2020-11-23T08:24:39Z" finished-at="2020-11-23T08:24:39Z">
+      <class name="sanityTest.RegressionTest">
+        <test-method status="PASS" signature="regTest()[pri:0, instance:sanityTest.RegressionTest@3cda1055]" name="regTest" duration-ms="1" started-at="2020-11-23T08:24:39Z" finished-at="2020-11-23T08:24:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regTest -->
+        <test-method status="PASS" signature="regTest2()[pri:0, instance:sanityTest.RegressionTest@3cda1055]" name="regTest2" duration-ms="2" started-at="2020-11-23T08:24:39Z" finished-at="2020-11-23T08:24:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regTest2 -->
+      </class> <!-- sanityTest.RegressionTest -->
+      <class name="sanityTest.SanityTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:sanityTest.SanityTest@668bc3d5]" name="beforeTest" is-config="true" duration-ms="16" started-at="2020-11-23T08:24:39Z" finished-at="2020-11-23T08:24:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:sanityTest.SanityTest@668bc3d5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-11-23T08:24:39Z" finished-at="2020-11-23T08:24:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:sanityTest.SanityTest@668bc3d5]" name="test1" duration-ms="0" started-at="2020-11-23T08:24:39Z" finished-at="2020-11-23T08:24:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:sanityTest.SanityTest@668bc3d5]" name="AfterTest" is-config="true" duration-ms="0" started-at="2020-11-23T08:24:39Z" finished-at="2020-11-23T08:24:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- sanityTest.SanityTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
